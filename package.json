@@ -1,0 +1,29 @@
+{
+  "name": "pass-manager",
+  "version": "1.0.0",
+  "description": "Simple password manager built with web technologies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
+  },
+  "author": "Mathieu Letendre-Jauniaux",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieulj/passman.git"
+  },
+  "keywords": [
+    "password",
+    "manager",
+    "electron",
+    "sqlite"
+  ],
+  "bugs": {
+    "url": "https://github.com/mathieulj/passman/issues"
+  },
+  "homepage": "https://github.com/mathieulj/passman#readme",
+  "dependencies": {
+    "electron": "^1.4.13"
+  }
+}
