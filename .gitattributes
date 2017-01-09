@@ -1,1 +1,5 @@
-* text eol=lf 
+# All text files will follow UNIX line ending conventions.
+* text=auto eol=lf 
+
+# Don't apply line ending conventions to PDF files.
+*.pdf binary
